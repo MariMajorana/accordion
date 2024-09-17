@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#AF67E9, #6565E7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#all{
+    width: 55vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    background-image: url("/faq-accordion-card-main/assets/images/bg-pattern-desktop.svg");
+    background-size: 470px;
+    background-repeat: no-repeat;
+}
+#woman{
+    margin-left: -120px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#box{
+    position: absolute;
+    top:135px;
+    left:-50px;
+}
+#menu{
+    padding-left: 50px;
+    font-size: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#menuQuest{
+    align-items: center;
+}
+#faq{
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+.quest{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.icon{
+    margin-left: 50px;
+    width: 10px;
+    height: 8px;
+}
+.answer{
+    padding-bottom: 8px;
+}
+#answer1{
+    display: none;
+}
+#answer2{
+    display: none;
+}
+#answer3{
+    display: none;
+}
+#answer4{
+    display: none;
+}
+#answer5{
+    display: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="all">
+        <div id="woman">
+            <img id="imgWoman" src="./assets/images/illustration-woman-online-desktop.svg" alt="Woman">
+            <div>
+                <img id="box" src="./assets/images/illustration-box-desktop.svg" alt="box">
+            </div>
+        </div>
+        <div id="menu">
+            <div id="faq">
+                <h1>FAQ</h1>
+            </div>
+            <div id="menuQuest">
+                <div id="menu1">
+                    <div onclick="quest1()" class="quest">
+                        <p>How many team members can I invite?</p>
+                        <img class="icon" src="./assets/images/icon-arrow-down.svg" alt="icon">
+                    </div>
+                    <p id="answer1" class="answer">answer</p>
+                    <hr>
+                </div>
+                <div id="menu2">
+                    <div onclick="quest2()" class="quest">
+                        <p>Whats is the maximum file upload size?</p>
+                        <img class="icon" src="./assets/images/icon-arrow-down.svg" alt="icon">
+                    </div>
+                    <p id="answer2" class="answer">No more than 2GB. All files in your account must fit your allotted storage space</p>
+                    <hr>
+                </div>
+                <div id="menu3">
+                    <div onclick="quest3()" class="quest">
+                        <p>How do I reset my password?</p>
+                        <img class="icon" src="./assets/images/icon-arrow-down.svg" alt="icon">
+                    </div>
+                    <p id="answer3" class="answer">answer</p>
+                    <hr>
+                </div>
+                <div id="menu4">
+                    <div onclick="quest4()" class="quest">
+                        <p>Can I cancel my subscription?</p>
+                        <img class="icon" src="./assets/images/icon-arrow-down.svg" alt="icon">
+                    </div>
+                    <p id="answer4" class="answer">answer</p>
+                    <hr>
+                </div>
+                <div id="menu5">
+                    <div onclick="quest5()" class="quest">
+                        <p>Do you provide additional support?</p>
+                        <img class="icon" src="./assets/images/icon-arrow-down.svg" alt="icon">
+                    </div>
+                    <p id="answer5" class="answer">answer</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
